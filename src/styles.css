@@ -278,6 +278,10 @@ button {
   box-shadow: var(--shadow);
 }
 
+.page-hero__image--placeholder {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(232, 221, 206, 0.92));
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;
