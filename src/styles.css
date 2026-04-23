@@ -278,8 +278,22 @@ button {
   box-shadow: var(--shadow);
 }
 
-.page-hero__image--placeholder {
+.page-hero__image--placeholder,
+.feature-banner__image--placeholder,
+.team-card__image--placeholder {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(232, 221, 206, 0.92));
+}
+
+.team-card__image--placeholder {
+  width: 100%;
+  min-height: 280px;
+  border-radius: 22px 22px 0 0;
+}
+
+.feature-banner__image--placeholder {
+  width: 100%;
+  min-height: 320px;
+  border-radius: var(--radius-xl);
 }
 
 .button-row {
