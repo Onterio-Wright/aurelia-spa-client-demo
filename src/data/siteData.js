@@ -143,29 +143,19 @@ export const differentiators = [
   },
 ];
 
-export const leadership = [
-  {
-    name: "Keisha Smith Wade",
-    role: "Founder",
-    bio:
-      "Founder bio to be inserted from the approved final bio. The current site copy identifies BrainTorch Bio as led by a clinical neuroscientist with real-world research experience.",
-    image: `${process.env.PUBLIC_URL}/images/braintorch-logo.png`,
-  },
-  {
-    name: "BrainTorch Launch",
-    role: "Clinical Research Training Program",
-    bio:
-      "A 6–7 month cohort-based workforce training program designed to prepare participants for entry-level clinical research roles.",
-    image: `${process.env.PUBLIC_URL}/images/braintorch-logo.png`,
-  },
-  {
-    name: "Partnership Pipeline",
-    role: "Employers · Workforce Organizations · Educational Institutions",
-    bio:
-      "BrainTorch Bio collaborates with partners to create workforce pipelines, internship and training placements, grant partnerships, and customized program development.",
-    image: `${process.env.PUBLIC_URL}/images/braintorch-logo.png`,
-  },
-];
+export const founderProfile = {
+  name: "Dr. Keisha Smith Wade",
+  role: "Founder, BrainTorch™ Bio",
+  image: `${process.env.PUBLIC_URL}/images/about-dr-keisha-smith-wade.png`,
+  bio: [
+    "Dr. Keisha Smith Wade is a translational and clinical research neuroscientist professional with over a decade of experience spanning basic science, translational medicine, and clinical research operations in research environments.",
+    "Her work has focused on neuropsychiatry, addiction neuroscience, mood disorders, women’s brain health, biomarker research, and clinical trial operations, with experience supporting multidisciplinary research initiatives at institutions including Yale School of Medicine.",
+    "Throughout her career, Dr. Smith Wade has contributed to clinical and translational research programs involving neuroimaging, behavioral health, biomarker analysis, and FDA-regulated clinical research. Her expertise includes clinical trial coordination, regulatory compliance, participant engagement, scientific program management, translational science education, and cross-functional research collaboration.",
+    "Dr. Smith Wade founded BrainTorch™ Bio to help bridge the gap between STEM education, translational science, and workforce readiness within the growing healthcare and clinical research industries. The initiative was created to provide accessible, industry-aligned training and career pathway exposure for individuals pursuing opportunities in clinical research, healthcare innovation, and life sciences.",
+    "BrainTorch™ Bio reflects her passion for scientific advancement, education, mentorship, and expanding pathways into meaningful healthcare and research careers through experiential learning and workforce development.",
+    "Dr. Smith Wade is committed to helping build the next generation of clinical research and healthcare professionals while supporting stronger connections between science, education, and community impact.",
+  ],
+};
 
 export const aboutSections = [
   {
