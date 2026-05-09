@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Button from "./Button";
 
-export default function PageHero({ eyebrow, title, description, image, primary, secondary, compact = false }) {
+export default function PageHero({ eyebrow, title, description, image, primary, secondary, tertiary, compact = false }) {
   const [imageFailed, setImageFailed] = useState(false);
 
   useEffect(() => {
@@ -16,12 +16,17 @@ export default function PageHero({ eyebrow, title, description, image, primary, 
           <h1>{title}</h1>
           <p className="lead">{description}</p>
 
-          {(primary || secondary) && (
+          {(primary || secondary || tertiary) && (
             <div className="button-row">
               {primary ? <Button to={primary.to}>{primary.label}</Button> : null}
               {secondary ? (
                 <Button to={secondary.to} variant="secondary">
                   {secondary.label}
+                </Button>
+              ) : null}
+              {tertiary ? (
+                <Button to={tertiary.to} variant="secondary">
+                  {tertiary.label}
                 </Button>
               ) : null}
             </div>

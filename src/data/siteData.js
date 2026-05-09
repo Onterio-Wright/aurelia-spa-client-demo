@@ -1,16 +1,19 @@
 import {
   ArrowRight,
-  BadgeDollarSign,
   Beaker,
+  BookOpenCheck,
   Briefcase,
   Building2,
-  Calculator,
   CheckCircle2,
-  Compass,
+  ClipboardCheck,
   FileText,
   FlaskConical,
+  GraduationCap,
+  Handshake,
+  HeartPulse,
   Landmark,
   LineChart,
+  Network,
   ShieldCheck,
   Sparkles,
   Target,
@@ -20,22 +23,19 @@ import {
 export const company = {
   name: "BrainTorch Bio",
   eyebrow: "Advancing Science. Empowering Minds.",
-  primaryCta: "Apply to BrainTorch Launch",
+  primaryCta: "Apply to Program",
   email: "braintorchbio@gmail.com",
-  phone: "901-626-8178",
-  location: "Serving students, professionals, schools, nonprofits, institutions, and organizations",
-  heroTitle: "Igniting pathways from STEM to clinical research.",
+  phone: "(972) 914-8009",
+  location: "Dallas-based workforce training and consulting company",
+  heroTitle: "Building the Clinical Research Workforce Pipeline",
   heroDescription:
-    "BrainTorch Bio provides clinical research training, STEM workforce development, mentorship, and scientific consulting to help students, professionals, schools, and organizations bridge the gap between science education and clinical research careers.",
+    "BrainTorch Bio provides workforce training and technical expertise to design and implement STEM education and clinical research programs that prepare talent for high-demand healthcare careers.",
 };
 
 export const links = {
   application: "https://YOUR-APPLICATION-FORM-LINK-HERE",
+  partnership: "https://YOUR-PARTNERSHIP-INQUIRY-LINK-HERE",
   consultation: "https://YOUR-BOOKING-LINK-HERE",
-  starterPayment: "https://YOUR-STARTER-WORKSHOP-PAYMENT-LINK-HERE",
-  corePayment: "https://YOUR-CORE-PROGRAM-PAYMENT-LINK-HERE",
-  mentorshipPayment: "https://YOUR-MENTORSHIP-PAYMENT-LINK-HERE",
-  institutionalInquiry: "https://YOUR-INSTITUTIONAL-INQUIRY-FORM-HERE",
 };
 
 export const navItems = [
@@ -48,114 +48,97 @@ export const navItems = [
 
 export const homeStats = [
   {
-    value: "Clinical Research Training",
-    label: "Foundations for learners exploring clinical trial roles, clinical research operations, and non-patient-facing industry paths.",
+    value: "Workforce-aligned training programs",
+    label: "Clinical research training designed around real career pathways and applied learning.",
   },
   {
-    value: "STEM Workforce Development",
-    label: "Programs, curriculum support, and career pathway development for schools, workforce programs, nonprofits, and community partners.",
+    value: "Career pathways into healthcare and research",
+    label: "Structured support for learners preparing for high-demand clinical research and healthcare careers.",
   },
   {
-    value: "Scientific Consulting",
-    label: "Scientific writing, clinical research strategy, program management, and translational neuroscience support.",
+    value: "Employer partnerships and job placement pipelines",
+    label: "Partnership-focused programming that connects training, workforce outcomes, and placement opportunities.",
   },
 ];
 
 export const clientTypes = [
   {
-    title: "Students & graduates",
+    title: "Individuals seeking clinical research careers",
     description:
-      "STEM learners, recent graduates, and early-career professionals preparing for clinical research careers, graduate school, fellowships, or industry transitions.",
+      "Training and career support for participants preparing for entry-level clinical research and healthcare roles.",
     icon: Users,
   },
   {
-    title: "Schools & workforce partners",
+    title: "Employers and workforce organizations",
     description:
-      "Schools, workforce programs, nonprofits, and community organizations building STEM and clinical research career pathways.",
-    icon: Landmark,
+      "Partnerships that help build clinical research workforce pipelines, internship pathways, and job placement connections.",
+    icon: Handshake,
   },
   {
-    title: "Companies & institutions",
+    title: "Schools and educational institutions",
     description:
-      "Companies, researchers, institutions, and nonprofits needing scientific writing, program support, clinical research strategy, or translational science consulting.",
-    icon: Building2,
+      "STEM education programming and workforce training design for schools, organizations, and education partners.",
+    icon: Landmark,
   },
 ];
 
 export const servicePillars = [
   {
-    title: "Scientific & Research Consulting",
+    title: "Workforce Training Programs",
     description:
-      "Scientific, clinical research, and translational science support for companies, researchers, institutions, and nonprofits.",
+      "Cohort-based training designed to prepare individuals for entry-level clinical research roles.",
     bullets: [
-      "Grant writing and proposal development",
-      "Scientific writing and editing",
-      "Manuscripts, reports, and technical content",
-      "Program and project management",
-      "Clinical research strategy and operations",
-      "Translational neuroscience and biomarker consulting",
+      "Clinical trial fundamentals",
+      "GCP, IRB, and FDA training",
+      "Patient assessment and recruitment",
+      "Study operations and data systems",
+      "Career readiness and job placement support",
     ],
-    icon: Beaker,
+    icon: GraduationCap,
   },
   {
     title: "STEM Education & Workforce Development",
     description:
-      "Program and pathway support for schools, workforce programs, nonprofits, and community partners.",
+      "Program design and consulting for schools, organizations, and workforce initiatives.",
     bullets: [
-      "STEM program development",
       "Curriculum design",
-      "Workforce training consulting",
+      "Workforce program development",
+      "Training program implementation",
       "Education partnerships",
-      "Clinical research career pathway development",
     ],
     icon: FlaskConical,
   },
   {
-    title: "Mentorship, Advising & Career Development",
+    title: "Scientific & Research Consulting",
     description:
-      "Personalized support for students, graduates, and early-career professionals preparing for clinical research and STEM career transitions.",
+      "Grant writing, scientific writing, and clinical research strategy support for research, education, and workforce initiatives.",
     bullets: [
-      "1:1 mentoring",
-      "Career advising",
-      "Resume and CV preparation",
-      "LinkedIn optimization",
-      "Interview preparation",
-      "Graduate school and fellowship guidance",
+      "Grant writing and proposal development",
+      "Scientific writing and editing",
+      "Clinical research strategy",
+      "Program and project management",
     ],
-    icon: Compass,
-  },
-  {
-    title: "BrainTorch Launch",
-    description:
-      "A structured clinical research training program for STEM learners, career changers, and emerging professionals.",
-    bullets: [
-      "Clinical trial phases I–IV",
-      "FDA, IRB, and ICH-GCP basics",
-      "CRC, CTA, CRA, MSL, and Clinical Scientist pathways",
-      "Bench-to-bedside translation",
-      "Resume, LinkedIn, and interview preparation",
-    ],
-    icon: BadgeDollarSign,
+    icon: Beaker,
   },
 ];
 
 export const differentiators = [
   {
-    title: "Science education connected to career pathways",
+    title: "Industry-aligned curriculum",
     text:
-      "BrainTorch Bio helps learners and organizations connect STEM education to clinical research, translational science, and workforce readiness.",
-    icon: Sparkles,
+      "BrainTorch Bio builds training around clinical research and healthcare workforce needs so participants can connect learning to career outcomes.",
+    icon: BookOpenCheck,
   },
   {
-    title: "Clinical research and translational science perspective",
+    title: "Hands-on, applied learning model",
     text:
-      "The firm brings clinical research strategy, scientific writing, program support, and translational neuroscience knowledge into practical training and consulting engagements.",
-    icon: Briefcase,
+      "The training approach emphasizes applied learning, simulated trial work, and practical career readiness.",
+    icon: ClipboardCheck,
   },
   {
-    title: "Mentorship built for emerging professionals",
+    title: "Led by clinical neuroscience experience",
     text:
-      "Students, graduates, and early-career professionals can receive targeted support for resumes, LinkedIn, interviews, graduate school, fellowships, and career transitions.",
+      "BrainTorch Bio is led by a clinical neuroscientist with real-world research experience.",
     icon: ShieldCheck,
   },
 ];
@@ -163,204 +146,196 @@ export const differentiators = [
 export const leadership = [
   {
     name: "Keisha Smith Wade",
-    role: "Founder · Neuroscientist · Clinical Researcher · Educator",
+    role: "Founder",
     bio:
-      "A PhD-trained neuroscientist, clinical researcher, and educator helping learners and organizations navigate the path from basic science to clinical research and workforce readiness.",
+      "Founder bio to be inserted from the approved final bio. The current site copy identifies BrainTorch Bio as led by a clinical neuroscientist with real-world research experience.",
     image: `${process.env.PUBLIC_URL}/images/braintorch-logo.png`,
   },
   {
     name: "BrainTorch Launch",
     role: "Clinical Research Training Program",
     bio:
-      "A structured training pathway designed for STEM students, graduates, career changers, and early-career professionals transitioning into clinical research and industry roles.",
+      "A 6–7 month cohort-based workforce training program designed to prepare participants for entry-level clinical research roles.",
     image: `${process.env.PUBLIC_URL}/images/braintorch-logo.png`,
   },
   {
-    name: "Mentorship & Career Development",
-    role: "Career Support Services",
+    name: "Partnership Pipeline",
+    role: "Employers · Workforce Organizations · Educational Institutions",
     bio:
-      "Personalized advising for resumes, CVs, LinkedIn optimization, interview preparation, graduate school planning, fellowships, and STEM career transitions.",
+      "BrainTorch Bio collaborates with partners to create workforce pipelines, internship and training placements, grant partnerships, and customized program development.",
     image: `${process.env.PUBLIC_URL}/images/braintorch-logo.png`,
   },
 ];
 
 export const aboutSections = [
   {
-    title: "What we do",
+    title: "Our Mission",
     copy:
-      "BrainTorch Bio was created to expand access to clinical research, STEM career pathways, and translational science training.",
+      "To expand access to careers in clinical research and healthcare by delivering workforce-aligned training programs that bridge the gap between education and employment.",
   },
   {
-    title: "Who we support",
+    title: "Our Vision",
     copy:
-      "The firm supports students, graduates, early-career professionals, schools, workforce programs, nonprofits, community partners, companies, researchers, and institutions.",
+      "To build a scalable workforce pipeline that prepares individuals for high-demand healthcare careers while strengthening the clinical research ecosystem.",
   },
   {
-    title: "Why it matters",
+    title: "Who We Are",
     copy:
-      "BrainTorch Bio helps learners and organizations bridge the gap between science education and clinical research careers through training, mentorship, program development, and scientific consulting.",
+      "BrainTorch Bio is a Dallas-based workforce training and consulting company focused on STEM education, clinical research training, and professional development. We partner with employers, workforce organizations, and educational institutions to create pathways into meaningful careers.",
   },
 ];
 
 export const servicesPageSections = [
   {
-    heading: "Scientific & Research Consulting",
-    text: "Support for companies, researchers, institutions, and nonprofits that need scientific communication, program support, or clinical research strategy.",
+    heading: "Workforce Training Programs",
+    text: "BrainTorch Launch is a 6–7 month cohort-based training program that prepares participants for entry-level roles in clinical research and healthcare.",
     checklist: [
-      "Grant writing and proposal development",
-      "Scientific writing and editing",
-      "Manuscripts, reports, and technical content",
-      "Program and project management",
-      "Clinical research strategy and operations",
-      "Translational neuroscience and biomarker consulting",
+      "Clinical trial fundamentals",
+      "GCP, IRB, and FDA training",
+      "Patient assessment and recruitment",
+      "Study operations and data systems",
+      "Career readiness and job placement support",
     ],
-    icon: FileText,
+    icon: GraduationCap,
   },
   {
     heading: "STEM Education & Workforce Development",
-    text: "Consulting and program development for schools, workforce programs, nonprofits, and community partners building STEM and clinical research pathways.",
+    text: "BrainTorch Bio partners with schools, workforce programs, and organizations to design and implement STEM education and workforce training programs.",
     checklist: [
-      "STEM program development",
       "Curriculum design",
-      "Workforce training consulting",
+      "Workforce program development",
+      "Training program implementation",
       "Education partnerships",
-      "Clinical research career pathway development",
     ],
-    icon: ShieldCheck,
+    icon: Network,
   },
   {
-    heading: "Mentorship, Advising & Career Development",
-    text: "One-on-one and packaged support for students, graduates, and early-career professionals preparing for clinical research, graduate school, fellowships, or STEM career transitions.",
+    heading: "Scientific & Research Consulting",
+    text: "Consulting services that support research, education, and workforce initiatives.",
     checklist: [
-      "1:1 mentoring",
-      "Career advising",
-      "Resume and CV preparation",
-      "LinkedIn optimization",
-      "Interview preparation",
-      "Graduate school and fellowship guidance",
+      "Grant writing and proposal development",
+      "Scientific writing and editing",
+      "Clinical research strategy",
+      "Program and project management",
     ],
-    icon: LineChart,
+    icon: FileText,
   },
 ];
 
 export const processSteps = [
-  "Start with an interest form or consultation so BrainTorch Bio can understand the learner, organization, or project need.",
-  "Match the inquiry to the right service path: BrainTorch Launch, mentorship, consulting, or institutional partnership.",
-  "Confirm the program, workshop, mentorship package, or consulting scope with clear next steps and payment or inquiry links.",
-  "Deliver training, advising, program support, or consulting with practical career and scientific outcomes in mind.",
+  "Select the right path: training program, partnership inquiry, or consulting engagement.",
+  "Review the participant, employer, workforce, education, or organization need.",
+  "Align the program model, training timeline, partnership scope, or consulting support.",
+  "Implement workforce training, STEM programming, clinical research support, or career development services.",
 ];
 
 export const impactHighlights = [
   {
-    title: "BrainTorch Launch",
-    text: "Clinical research career training for STEM learners and emerging professionals.",
+    title: "Duration",
+    text: "BrainTorch Launch is designed as a 6–7 month cohort-based clinical research training program.",
     icon: Target,
   },
   {
-    title: "Career pathway support",
-    text: "Guidance for CRC, CTA, CRA, MSL, Clinical Scientist, and other clinical research pathway exploration.",
-    icon: Users,
+    title: "Schedule",
+    text: "Program schedule: 9:00 AM – 2:30 PM.",
+    icon: CheckCircle2,
   },
   {
-    title: "Workforce readiness",
-    text: "Training and support that connects science education, clinical research foundations, and professional preparation.",
-    icon: CheckCircle2,
+    title: "Format",
+    text: "Hybrid instruction plus applied learning.",
+    icon: Building2,
   },
 ];
 
 export const caseStudies = [
   {
-    category: "Starter Workshop",
-    title: "$97",
-    description: "Introductory 60–90 minute live session for beginners exploring clinical research careers.",
-    result: "Payment placeholder: YOUR-STARTER-WORKSHOP-PAYMENT-LINK-HERE",
+    category: "Clinical Trial Skills",
+    title: "What You’ll Learn",
+    description: "Clinical trial fundamentals, regulatory compliance, patient assessments, recruitment, retention, study operations, and data systems.",
+    result: "Participants build applied knowledge for entry-level clinical research and healthcare roles.",
   },
   {
-    category: "Core Training Program",
-    title: "$597",
-    description: "Multi-session clinical research foundations program with career pathway guidance.",
-    result: "Payment placeholder: YOUR-CORE-PROGRAM-PAYMENT-LINK-HERE",
+    category: "Capstone Experience",
+    title: "Simulated Clinical Trial Project",
+    description: "Participants complete a simulated clinical trial project including recruitment, assessment, documentation, and presentation.",
+    result: "The capstone connects program learning to practical trial operations.",
   },
   {
-    category: "Premium Mentorship Track",
-    title: "$1,500",
-    description: "Training plus 1:1 mentoring, resume support, LinkedIn optimization, and interview preparation.",
-    result: "Payment placeholder: YOUR-MENTORSHIP-PAYMENT-LINK-HERE",
+    category: "Career Outcomes",
+    title: "Entry-Level Research Roles",
+    description: "Graduates are prepared for roles such as Clinical Research Coordinator, Clinical Trial Assistant, and Research Assistant.",
+    result: "The program is built around workforce readiness and job placement support.",
   },
 ];
 
 export const resources = [
   {
-    tag: "Institutional Programs",
-    title: "Starting at $3,500",
-    summary: "Custom training for schools, nonprofits, workforce boards, and organizations. Inquiry/deposit placeholder: YOUR-INSTITUTIONAL-INQUIRY-FORM-HERE.",
+    tag: "Career Support",
+    title: "Mentorship & Career Development",
+    summary: "Individualized support for resume and CV development, interview preparation, career pathway guidance, and graduate school advising.",
   },
   {
-    tag: "Mentorship Option",
-    title: "Resume/CV Review · $125",
-    summary: "Focused resume or CV support for students, graduates, and early-career professionals.",
+    tag: "Partnerships",
+    title: "Partner With BrainTorch Bio",
+    summary: "Employer partnerships, internship and training placements, workforce program collaborations, and grant or funding partnerships.",
   },
   {
-    tag: "Mentorship Option",
-    title: "Career Strategy Session · $150",
-    summary: "Personalized career strategy support for clinical research, graduate school, fellowship, or STEM career transition planning.",
+    tag: "Consulting Packages",
+    title: "Starter: $1,500–$3,000",
+    summary: "Starter consulting support for research, education, workforce, or program development needs.",
   },
   {
-    tag: "Mentorship Package",
-    title: "3-Session Mentorship Package · $399",
-    summary: "Multi-session advising for career development, applications, and interview preparation.",
+    tag: "Consulting Packages",
+    title: "Program Development: $5,000–$15,000",
+    summary: "Program development support for organizations designing STEM, clinical research, or workforce initiatives.",
   },
   {
-    tag: "Mentorship Package",
-    title: "Premium Career Package · $750",
-    summary: "Higher-touch career support including resume/CV guidance, LinkedIn optimization, and interview preparation.",
+    tag: "Consulting Packages",
+    title: "Full Workforce Program Design: $15,000+",
+    summary: "Comprehensive workforce program design for larger training and partnership initiatives.",
   },
   {
-    tag: "QR Setup",
-    title: "Application QR Code Placeholder",
-    summary: "Create the application form, generate a QR code in Canva, and replace the website placeholder with the QR image when ready.",
+    tag: "Why Partner With Us",
+    title: "Access to Trained Talent",
+    summary: "Partners can connect with workforce-aligned training programs and customized program development support.",
   },
 ];
 
 export const contactReasons = [
-  "Starter Workshop",
-  "Core Training Program",
-  "Premium Mentorship Track",
-  "Institutional Partnership",
-  "Scientific & Research Consulting",
-  "STEM Education & Workforce Development",
-  "Mentorship, Advising & Career Development",
+  "Training Program",
+  "Partnership",
+  "Consulting",
 ];
 
 export const faqItems = [
   {
-    question: "Who is BrainTorch Launch designed for?",
+    question: "What is BrainTorch Launch?",
     answer:
-      "BrainTorch Launch is designed for STEM students, graduates, career changers, and early-career professionals transitioning into clinical research, translational science, and non-patient-facing industry roles.",
+      "BrainTorch Launch is a workforce training program designed to prepare participants for entry-level roles in clinical research.",
   },
   {
-    question: "What does BrainTorch Launch cover?",
+    question: "What roles can graduates prepare for?",
     answer:
-      "The program covers clinical trial phases I–IV, FDA, IRB, and ICH-GCP basics, CRC, CTA, CRA, MSL, and Clinical Scientist pathways, bench-to-bedside translation, and resume, LinkedIn, and interview preparation.",
+      "Graduates are prepared for roles such as Clinical Research Coordinator, Clinical Trial Assistant, and Research Assistant.",
   },
   {
-    question: "What form fields should the application include?",
+    question: "What partnership opportunities are available?",
     answer:
-      "Recommended fields include full name, email, phone, current role or student status, highest degree completed, STEM or clinical research background, selected program option, goals for joining, career transition support needs, preferred start date, and referral source.",
+      "BrainTorch Bio collaborates on employer partnerships, internship and training placements, workforce program collaborations, and grant or funding partnerships.",
   },
 ];
 
 export const footerNote =
-  "BrainTorch Bio provides clinical research training, STEM workforce development, mentorship, and scientific consulting.";
-
-export const homeImages = {
-  hero: `${process.env.PUBLIC_URL}/images/home-hero.jpg`,
-  about: `${process.env.PUBLIC_URL}/images/about.jpg`,
-  services: `${process.env.PUBLIC_URL}/images/services.jpg`,
-};
+  "BrainTorch Bio provides workforce training and technical expertise for STEM education and clinical research programs that prepare talent for high-demand healthcare careers.";
 
 export const impactBanner = {
-  title: "A structured clinical research training pathway from STEM learning to career readiness.",
-  text: "BrainTorch Launch helps STEM students, graduates, career changers, and early-career professionals build clinical research foundations and prepare for non-patient-facing roles in clinical research and translational science.",
+  title: "A cohort-based clinical research training program built for workforce readiness.",
+  text: "BrainTorch Launch prepares participants through clinical trial fundamentals, regulatory compliance, patient assessments, recruitment and retention strategies, study operations, data systems, and a simulated clinical trial capstone.",
   icon: ArrowRight,
+};
+
+export const homeImages = {
+  hero: `${process.env.PUBLIC_URL}/images/braintorch-logo.png`,
+  about: `${process.env.PUBLIC_URL}/images/braintorch-logo.png`,
+  services: `${process.env.PUBLIC_URL}/images/braintorch-logo.png`,
 };

@@ -13,21 +13,22 @@ export default function HomePage() {
   return (
     <>
       <PageHero
-        eyebrow="Clinical Research Training | STEM Workforce Development | Scientific Consulting"
+        eyebrow="Workforce Training | STEM Education | Clinical Research Consulting"
         title={company.heroTitle}
         description={company.heroDescription}
         image={homeImages.hero}
-        primary={{ to: "/contact", label: company.primaryCta }}
-        secondary={{ to: "/services", label: "Explore Services" }}
+        primary={{ to: "/contact", label: "Apply to Program" }}
+        secondary={{ to: "/services", label: "Partner With Us" }}
+        tertiary={{ to: "/contact", label: "Book a Consultation" }}
       />
 
       <StatStrip items={homeStats} />
 
       <section className="section shell">
         <SectionIntro
-          eyebrow="Who We Serve"
-          title="Helping learners, schools, workforce partners, and organizations move science forward"
-          text="BrainTorch Bio supports individual career development, institutional STEM pathway building, and scientific or clinical research consulting needs."
+          eyebrow="What We Do"
+          title="Expanding access to careers in clinical research and healthcare"
+          text="BrainTorch Bio is a workforce development company focused on expanding access to careers in clinical research and healthcare. We deliver industry-aligned training, STEM education programming, and consulting services that bridge the gap between education and employment."
         />
         <div className="card-grid card-grid--three top-gap-lg">
           {clientTypes.map(item => (
@@ -40,19 +41,19 @@ export default function HomePage() {
         <div className="shell split-layout split-layout--balanced">
           <div>
             <SectionIntro
-              eyebrow="Core Services"
-              title="Training, mentorship, and consulting built around clinical research readiness"
-              text="The service platform includes scientific and research consulting, STEM education and workforce development, mentorship and career advising, and the BrainTorch Launch clinical research training program."
+              eyebrow="Our Core Services"
+              title="Training, STEM workforce development, and research consulting"
+              text="BrainTorch Bio provides cohort-based workforce training, STEM education and workforce development, and scientific and research consulting for participants, schools, organizations, workforce initiatives, and partners."
             />
             <div className="button-row top-gap-md">
-              <Button to="/services">View all services</Button>
+              <Button to="/contact">Book a Consultation</Button>
               <Button to="/impact" variant="secondary">
                 BrainTorch Launch <ArrowRight size={16} />
               </Button>
             </div>
           </div>
           <div className="stack-grid">
-            {servicePillars.slice(0, 3).map(item => (
+            {servicePillars.map(item => (
               <InfoCard
                 key={item.title}
                 icon={item.icon}
@@ -68,18 +69,22 @@ export default function HomePage() {
       <section className="section shell">
         <div className="feature-banner">
           <div>
-            <p className="eyebrow">BrainTorch Launch</p>
-            <h2>Clinical research career training for STEM learners and emerging professionals.</h2>
+            <p className="eyebrow">Why BrainTorch Bio</p>
+            <h2>Industry-aligned curriculum, applied learning, and workforce outcomes.</h2>
             <p>
-              BrainTorch Launch is a structured program designed to help STEM students, graduates, career changers,
-              and early-career professionals transition into clinical research, translational science, and non-patient-facing industry roles.
+              BrainTorch Bio focuses on workforce outcomes and job placement, with programs designed around clinical research and healthcare career pathways.
+              Join us in building the next generation of clinical research professionals.
             </p>
+            <div className="button-row top-gap-md">
+              <Button to="/contact">Apply Now</Button>
+              <Button to="/contact" variant="secondary">Partner With Us</Button>
+            </div>
           </div>
 
           {!bannerImageFailed ? (
             <img
               src={homeImages.about}
-              alt="BrainTorch Bio logo"
+              alt="BrainTorch Bio trademark logo"
               className="feature-banner__image"
               onError={() => setBannerImageFailed(true)}
             />

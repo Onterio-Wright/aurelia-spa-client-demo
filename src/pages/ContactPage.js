@@ -8,8 +8,8 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Contact BrainTorch Bio"
-        title="Apply, book a consultation, or start a partnership conversation"
-        description="Interested in BrainTorch Launch, mentorship, consulting, or partnership opportunities? Connect with BrainTorch Bio to take the next step."
+        title="Get in touch about training, partnerships, or consulting services"
+        description="Interested in training, partnerships, or consulting services? Connect with BrainTorch Bio to take the next step."
         compact
       />
 
@@ -19,7 +19,7 @@ export default function ContactPage() {
             <p className="eyebrow">Get in touch</p>
             <h2>Let’s connect.</h2>
             <p>
-              Reach out about BrainTorch Launch, mentorship and career development, scientific and research consulting, STEM workforce development, or institutional partnership opportunities.
+              Reach out about BrainTorch Launch, STEM education and workforce development, scientific and research consulting, or partnership opportunities.
             </p>
             <div className="contact-details">
               <div>
@@ -31,7 +31,7 @@ export default function ContactPage() {
                 <span>{company.email}</span>
               </div>
               <div>
-                <strong>Service Area</strong>
+                <strong>Location</strong>
                 <span>{company.location}</span>
               </div>
             </div>
@@ -45,9 +45,9 @@ export default function ContactPage() {
         <div className="shell faq-grid">
           <div>
             <p className="eyebrow">Frequently Asked Questions</p>
-            <h2>BrainTorch Launch and application details.</h2>
+            <h2>Training, career outcomes, and partnership details.</h2>
             <p className="lead-small">
-              The application form should capture the learner’s contact information, background, program interest, goals, preferred start date, and how they heard about BrainTorch Bio.
+              The contact form captures name, email, organization, inquiry type, and message so the right training, partnership, or consulting path can be reviewed.
             </p>
           </div>
           <div>

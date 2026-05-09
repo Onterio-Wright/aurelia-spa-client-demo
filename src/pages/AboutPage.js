@@ -9,31 +9,31 @@ export default function AboutPage() {
     <>
       <PageHero
         eyebrow="About BrainTorch Bio"
-        title="Expanding access to clinical research, STEM career pathways, and translational science training"
-        description="BrainTorch Bio was founded to help learners and organizations navigate the path from basic science to clinical research and workforce readiness."
+        title="Building a scalable clinical research workforce pipeline"
+        description="BrainTorch Bio is a Dallas-based workforce training and consulting company focused on STEM education, clinical research training, and professional development."
         image={homeImages.about}
         compact
       />
 
       <section className="section shell">
         <SectionIntro
-          eyebrow="Our Approach"
-          title="Science education, career development, and clinical research readiness in one platform"
-          text="BrainTorch Bio combines training, mentorship, program development, and scientific consulting so learners and organizations can move with clarity."
+          eyebrow="Mission & Vision"
+          title="Bridging the gap between education and employment"
+          text="BrainTorch Bio works to expand access to careers in clinical research and healthcare while strengthening the clinical research ecosystem."
         />
         <div className="card-grid card-grid--three top-gap-lg">
-          {differentiators.map((item) => (
-            <InfoCard key={item.title} icon={item.icon} title={item.title} text={item.text} />
+          {aboutSections.map((item) => (
+            <InfoCard key={item.title} title={item.title} text={item.copy} />
           ))}
         </div>
       </section>
 
       <section className="section section--contrast">
         <div className="shell narrative-grid">
-          {aboutSections.map((item) => (
+          {differentiators.map((item) => (
             <article key={item.title} className="narrative-block">
               <h3>{item.title}</h3>
-              <p>{item.copy}</p>
+              <p>{item.text}</p>
             </article>
           ))}
         </div>
@@ -41,9 +41,9 @@ export default function AboutPage() {
 
       <section className="section shell">
         <SectionIntro
-          eyebrow="Founder & Programs"
-          title="Led by Keisha Smith Wade"
-          text="Keisha Smith Wade is a PhD-trained neuroscientist, clinical researcher, and educator. BrainTorch Bio helps learners and organizations connect science training to clinical research and workforce opportunities."
+          eyebrow="Founder & Partnerships"
+          title="Led by clinical neuroscience and real-world research experience"
+          text="BrainTorch Bio partners with employers, workforce organizations, and educational institutions to create pathways into meaningful careers."
         />
         <div className="card-grid card-grid--three top-gap-lg">
           {leadership.map((member) => (

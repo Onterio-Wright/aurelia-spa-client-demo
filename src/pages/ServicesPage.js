@@ -2,15 +2,15 @@ import PageHero from '../components/PageHero';
 import SectionIntro from '../components/SectionIntro';
 import InfoCard from '../components/InfoCard';
 import ProcessList from '../components/ProcessList';
-import { servicesPageSections, processSteps, homeImages } from '../data/siteData';
+import { servicesPageSections, processSteps, resources, homeImages } from '../data/siteData';
 
 export default function ServicesPage() {
   return (
     <>
       <PageHero
         eyebrow="Services"
-        title="Clinical research training, STEM workforce development, mentorship, and scientific consulting"
-        description="BrainTorch Bio serves companies, researchers, institutions, nonprofits, schools, workforce programs, community partners, students, graduates, and early-career professionals."
+        title="Workforce training, STEM education, and scientific consulting"
+        description="BrainTorch Bio supports participants, schools, workforce programs, organizations, employers, and education partners with training, program design, and clinical research expertise."
         image={homeImages.services}
         compact
       />
@@ -19,7 +19,7 @@ export default function ServicesPage() {
         <SectionIntro
           eyebrow="Service Lines"
           title="What BrainTorch Bio offers"
-          text="The service lines are organized around scientific and research consulting, STEM education and workforce development, and mentorship, advising, and career development."
+          text="Services are organized around workforce training programs, STEM education and workforce development, and scientific and research consulting."
         />
         <div className="stack-grid top-gap-lg">
           {servicesPageSections.map((item) => (
@@ -31,11 +31,24 @@ export default function ServicesPage() {
       <section className="section section--contrast">
         <div className="shell split-layout">
           <SectionIntro
-            eyebrow="How Engagements Work"
-            title="A clear path from interest to training, mentorship, partnership, or consulting support"
-            text="The process keeps the current site structure while replacing the content with BrainTorch Bio program and service information."
+            eyebrow="Partnerships"
+            title="Partner with BrainTorch Bio"
+            text="BrainTorch Bio collaborates with employers, workforce organizations, and educational institutions to build workforce pipelines, including employer partnerships, internship and training placements, workforce program collaborations, and grant or funding partnerships."
           />
           <ProcessList steps={processSteps} />
+        </div>
+      </section>
+
+      <section className="section shell section--tight-top">
+        <SectionIntro
+          eyebrow="Consulting Packages"
+          title="Research, education, and workforce initiative support"
+          text="The website document lists optional consulting package ranges for organizations that need program development or full workforce program design support."
+        />
+        <div className="card-grid card-grid--three top-gap-lg">
+          {resources.slice(2, 5).map((item) => (
+            <InfoCard key={item.title} title={item.title} text={item.summary} />
+          ))}
         </div>
       </section>
     </>

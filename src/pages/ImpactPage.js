@@ -11,14 +11,19 @@ export default function ImpactPage() {
   return (
     <>
       <PageHero
-        eyebrow="Flagship Program"
+        eyebrow="Clinical Research Training Program"
         title="BrainTorch Launch"
-        description="A structured clinical research training program designed to help STEM students, graduates, career changers, and early-career professionals transition into clinical research, translational science, and non-patient-facing industry roles."
+        description="BrainTorch Launch is a workforce training program designed to prepare participants for entry-level roles in clinical research."
         compact
       />
 
       <section className="section shell">
-        <div className="card-grid card-grid--three">
+        <SectionIntro
+          eyebrow="Program Overview"
+          title="A 6–7 month hybrid training program"
+          text="The program combines hybrid instruction and applied learning to prepare participants for entry-level clinical research and healthcare roles."
+        />
+        <div className="card-grid card-grid--three top-gap-lg">
           {impactHighlights.map((item) => (
             <InfoCard key={item.title} icon={item.icon} title={item.title} text={item.text} />
           ))}
@@ -40,9 +45,9 @@ export default function ImpactPage() {
 
       <section className="section shell">
         <SectionIntro
-          eyebrow="Program Pricing"
-          title="BrainTorch Launch program options"
-          text="The uploaded starter listed these program tiers for the BrainTorch Bio site. Replace the placeholder payment links when the live payment pages are ready."
+          eyebrow="Training Experience"
+          title="Applied learning, capstone experience, and career outcomes"
+          text="Participants complete a simulated clinical trial project and build preparation for entry-level clinical research roles."
         />
         <div className="card-grid card-grid--three top-gap-lg">
           {caseStudies.map((item) => (
@@ -53,12 +58,12 @@ export default function ImpactPage() {
 
       <section className="section shell section--tight-top">
         <SectionIntro
-          eyebrow="Mentorship & Application Setup"
-          title="Career support, institutional programs, and QR placeholder details"
-          text="These cards capture the mentorship pricing, institutional program starting point, and QR setup notes from the BrainTorch Bio starter document."
+          eyebrow="Career Development & Partnerships"
+          title="Support beyond training"
+          text="BrainTorch Bio also supports career transitions and partner organizations building workforce pipelines."
         />
         <div className="card-grid card-grid--three top-gap-lg">
-          {resources.map((item) => (
+          {resources.slice(0, 2).concat(resources.slice(5, 6)).map((item) => (
             <ResourceCard key={item.title} item={item} />
           ))}
         </div>

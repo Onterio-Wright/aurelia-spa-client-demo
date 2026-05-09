@@ -7,7 +7,7 @@ export default function Footer({ items }) {
       <div className="shell footer__grid">
         <div>
           <div className="brand brand--footer brand--with-logo">
-            <img src={`${process.env.PUBLIC_URL}/images/braintorch-logo.png`} alt="BrainTorch Bio logo" className="brand__logo" />
+            <img src={`${process.env.PUBLIC_URL}/images/braintorch-logo.png`} alt="BrainTorch Bio trademark logo" className="brand__logo" />
             <span className="brand__text">
               <span className="brand__eyebrow">{company.eyebrow}</span>
               <span className="brand__name">{company.name}</span>
