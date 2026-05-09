@@ -1,8 +1,7 @@
-import PageHero from "../components/PageHero";
-import SectionIntro from "../components/SectionIntro";
-import InfoCard from "../components/InfoCard";
-import TeamCard from "../components/TeamCard";
-import { aboutSections, differentiators, founderProfile, homeImages } from "../data/siteData";
+import PageHero from '../components/PageHero';
+import SectionIntro from '../components/SectionIntro';
+import InfoCard from '../components/InfoCard';
+import { aboutSections, differentiators, founderProfile, homeImages } from '../data/siteData';
 
 export default function AboutPage() {
   return (
@@ -10,7 +9,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About BrainTorch Bio"
         title="Building a scalable clinical research workforce pipeline"
-        description="BrainTorch Bio is a Dallas/Ft Worth -based workforce training and consulting company focused on STEM education, clinical research training, and professional development."
+        description="BrainTorch Bio is a Dallas-based workforce training and consulting company focused on STEM education, clinical research training, and professional development."
         image={homeImages.about}
         compact
       />
@@ -22,7 +21,7 @@ export default function AboutPage() {
           text="BrainTorch Bio works to expand access to careers in clinical research and healthcare while strengthening the clinical research ecosystem."
         />
         <div className="card-grid card-grid--three top-gap-lg">
-          {aboutSections.map(item => (
+          {aboutSections.map((item) => (
             <InfoCard key={item.title} title={item.title} text={item.copy} />
           ))}
         </div>
@@ -30,7 +29,7 @@ export default function AboutPage() {
 
       <section className="section section--contrast">
         <div className="shell narrative-grid">
-          {differentiators.map(item => (
+          {differentiators.map((item) => (
             <article key={item.title} className="narrative-block">
               <h3>{item.title}</h3>
               <p>{item.text}</p>
@@ -39,19 +38,19 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="section shell">
-        <SectionIntro
-          eyebrow="Founder & Partnerships"
-          title="Led by clinical neuroscience and real-world research experience"
-          text="BrainTorch Bio partners with employers, workforce organizations, and educational institutions to create pathways into meaningful careers."
-        />
-        <div className="card-grid card-grid--three top-gap-lg">
-          <TeamCard
-            member={{
-              ...founderProfile,
-              bio: founderProfile.bio[0],
-            }}
-          />
+      <section className="section shell founder-section">
+        <div className="founder-profile">
+          <div className="founder-profile__image-wrap">
+            <img src={founderProfile.image} alt={founderProfile.name} className="founder-profile__image" />
+          </div>
+          <div className="founder-profile__content">
+            <p className="eyebrow">Founder</p>
+            <h2>{founderProfile.name}</h2>
+            <p className="founder-profile__role">{founderProfile.role}</p>
+            {founderProfile.bio.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
         </div>
       </section>
     </>
