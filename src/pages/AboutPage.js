@@ -2,7 +2,7 @@ import PageHero from "../components/PageHero";
 import SectionIntro from "../components/SectionIntro";
 import InfoCard from "../components/InfoCard";
 import TeamCard from "../components/TeamCard";
-import { aboutSections, differentiators, leadership, homeImages } from "../data/siteData";
+import { aboutSections, differentiators, founderProfile, homeImages } from "../data/siteData";
 
 export default function AboutPage() {
   return (
@@ -46,9 +46,12 @@ export default function AboutPage() {
           text="BrainTorch Bio partners with employers, workforce organizations, and educational institutions to create pathways into meaningful careers."
         />
         <div className="card-grid card-grid--three top-gap-lg">
-          {leadership.map(member => (
-            <TeamCard key={member.name} member={member} />
-          ))}
+          <TeamCard
+            member={{
+              ...founderProfile,
+              bio: founderProfile.bio[0],
+            }}
+          />
         </div>
       </section>
     </>
