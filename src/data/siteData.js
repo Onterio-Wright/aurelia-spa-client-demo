@@ -26,7 +26,7 @@ export const company = {
   primaryCta: "Apply to Program",
   email: "braintorchbio@gmail.com",
   phone: "(972) 914-8009",
-  location: "Dallas-based workforce training and consulting company",
+  location: "Dallas/Ft Worth -based workforce training and consulting company",
   heroTitle: "Building the Clinical Research Workforce Pipeline",
   heroDescription:
     "BrainTorch Bio provides workforce training and technical expertise to design and implement STEM education and clinical research programs that prepare talent for high-demand healthcare careers.",
@@ -85,8 +85,7 @@ export const clientTypes = [
 export const servicePillars = [
   {
     title: "Workforce Training Programs",
-    description:
-      "Cohort-based training designed to prepare individuals for entry-level clinical research roles.",
+    description: "Cohort-based training designed to prepare individuals for entry-level clinical research roles.",
     bullets: [
       "Clinical trial fundamentals",
       "GCP, IRB, and FDA training",
@@ -98,8 +97,7 @@ export const servicePillars = [
   },
   {
     title: "STEM Education & Workforce Development",
-    description:
-      "Program design and consulting for schools, organizations, and workforce initiatives.",
+    description: "Program design and consulting for schools, organizations, and workforce initiatives.",
     bullets: [
       "Curriculum design",
       "Workforce program development",
@@ -125,20 +123,17 @@ export const servicePillars = [
 export const differentiators = [
   {
     title: "Industry-aligned curriculum",
-    text:
-      "BrainTorch Bio builds training around clinical research and healthcare workforce needs so participants can connect learning to career outcomes.",
+    text: "BrainTorch Bio builds training around clinical research and healthcare workforce needs so participants can connect learning to career outcomes.",
     icon: BookOpenCheck,
   },
   {
     title: "Hands-on, applied learning model",
-    text:
-      "The training approach emphasizes applied learning, simulated trial work, and practical career readiness.",
+    text: "The training approach emphasizes applied learning, simulated trial work, and practical career readiness.",
     icon: ClipboardCheck,
   },
   {
     title: "Led by clinical neuroscience experience",
-    text:
-      "BrainTorch Bio is led by a clinical neuroscientist with real-world research experience.",
+    text: "BrainTorch Bio is led by a clinical neuroscientist with real-world research experience.",
     icon: ShieldCheck,
   },
 ];
@@ -160,18 +155,15 @@ export const founderProfile = {
 export const aboutSections = [
   {
     title: "Our Mission",
-    copy:
-      "To expand access to careers in clinical research and healthcare by delivering workforce-aligned training programs that bridge the gap between education and employment.",
+    copy: "To expand access to careers in clinical research and healthcare by delivering workforce-aligned training programs that bridge the gap between education and employment.",
   },
   {
     title: "Our Vision",
-    copy:
-      "To build a scalable workforce pipeline that prepares individuals for high-demand healthcare careers while strengthening the clinical research ecosystem.",
+    copy: "To build a scalable workforce pipeline that prepares individuals for high-demand healthcare careers while strengthening the clinical research ecosystem.",
   },
   {
     title: "Who We Are",
-    copy:
-      "BrainTorch Bio is a Dallas-based workforce training and consulting company focused on STEM education, clinical research training, and professional development. We partner with employers, workforce organizations, and educational institutions to create pathways into meaningful careers.",
+    copy: "BrainTorch Bio is a Dallas/Ft Worth -based workforce training and consulting company focused on STEM education, clinical research training, and professional development. We partner with employers, workforce organizations, and educational institutions to create pathways into meaningful careers.",
   },
 ];
 
@@ -241,19 +233,22 @@ export const caseStudies = [
   {
     category: "Clinical Trial Skills",
     title: "What You’ll Learn",
-    description: "Clinical trial fundamentals, regulatory compliance, patient assessments, recruitment, retention, study operations, and data systems.",
+    description:
+      "Clinical trial fundamentals, regulatory compliance, patient assessments, recruitment, retention, study operations, and data systems.",
     result: "Participants build applied knowledge for entry-level clinical research and healthcare roles.",
   },
   {
     category: "Capstone Experience",
     title: "Simulated Clinical Trial Project",
-    description: "Participants complete a simulated clinical trial project including recruitment, assessment, documentation, and presentation.",
+    description:
+      "Participants complete a simulated clinical trial project including recruitment, assessment, documentation, and presentation.",
     result: "The capstone connects program learning to practical trial operations.",
   },
   {
     category: "Career Outcomes",
     title: "Entry-Level Research Roles",
-    description: "Graduates are prepared for roles such as Clinical Research Coordinator, Clinical Trial Assistant, and Research Assistant.",
+    description:
+      "Graduates are prepared for roles such as Clinical Research Coordinator, Clinical Trial Assistant, and Research Assistant.",
     result: "The program is built around workforce readiness and job placement support.",
   },
 ];
@@ -262,12 +257,14 @@ export const resources = [
   {
     tag: "Career Support",
     title: "Mentorship & Career Development",
-    summary: "Individualized support for resume and CV development, interview preparation, career pathway guidance, and graduate school advising.",
+    summary:
+      "Individualized support for resume and CV development, interview preparation, career pathway guidance, and graduate school advising.",
   },
   {
     tag: "Partnerships",
     title: "Partner With BrainTorch Bio",
-    summary: "Employer partnerships, internship and training placements, workforce program collaborations, and grant or funding partnerships.",
+    summary:
+      "Employer partnerships, internship and training placements, workforce program collaborations, and grant or funding partnerships.",
   },
   {
     tag: "Consulting Packages",
@@ -277,7 +274,8 @@ export const resources = [
   {
     tag: "Consulting Packages",
     title: "Program Development: $5,000–$15,000",
-    summary: "Program development support for organizations designing STEM, clinical research, or workforce initiatives.",
+    summary:
+      "Program development support for organizations designing STEM, clinical research, or workforce initiatives.",
   },
   {
     tag: "Consulting Packages",
@@ -287,15 +285,12 @@ export const resources = [
   {
     tag: "Why Partner With Us",
     title: "Access to Trained Talent",
-    summary: "Partners can connect with workforce-aligned training programs and customized program development support.",
+    summary:
+      "Partners can connect with workforce-aligned training programs and customized program development support.",
   },
 ];
 
-export const contactReasons = [
-  "Training Program",
-  "Partnership",
-  "Consulting",
-];
+export const contactReasons = ["Training Program", "Partnership", "Consulting"];
 
 export const faqItems = [
   {
