@@ -139,7 +139,7 @@ export const differentiators = [
 ];
 
 export const founderProfile = {
-  name: "Dr. Keisha Smith Wade",
+  name: "Dr. Keisha Smith Wade, PhD",
   role: "Founder, BrainTorch™ Bio",
   image: `${process.env.PUBLIC_URL}/images/about-dr-keisha-smith-wade.png`,
   bio: [
