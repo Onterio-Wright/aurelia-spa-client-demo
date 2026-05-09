@@ -18,275 +18,340 @@ import {
 } from "lucide-react";
 
 export const company = {
-  name: "Aurelia Scientific Advisory",
-  eyebrow: "Science, Finance & Growth Strategy",
-  primaryCta: "Book a Discovery Call",
-  email: "info@aureliascientific.com",
-  phone: "(919) 555-0147",
-  location: "Raleigh, NC · Serving clients nationwide",
-  heroTitle: "Securing and managing grant funding for scientific advancement.",
+  name: "BrainTorch Bio",
+  eyebrow: "Advancing Science. Empowering Minds.",
+  primaryCta: "Apply to BrainTorch Launch",
+  email: "braintorchbio@gmail.com",
+  phone: "901-626-8178",
+  location: "Serving students, professionals, schools, nonprofits, institutions, and organizations",
+  heroTitle: "Igniting pathways from STEM to clinical research.",
   heroDescription:
-    "Aurelia Scientific Advisory helps research-driven organizations pursue non-dilutive funding, strengthen grant accounting and compliance, and communicate complex innovation with confidence.",
+    "BrainTorch Bio provides clinical research training, STEM workforce development, mentorship, and scientific consulting to help students, professionals, schools, and organizations bridge the gap between science education and clinical research careers.",
+};
+
+export const links = {
+  application: "https://YOUR-APPLICATION-FORM-LINK-HERE",
+  consultation: "https://YOUR-BOOKING-LINK-HERE",
+  starterPayment: "https://YOUR-STARTER-WORKSHOP-PAYMENT-LINK-HERE",
+  corePayment: "https://YOUR-CORE-PROGRAM-PAYMENT-LINK-HERE",
+  mentorshipPayment: "https://YOUR-MENTORSHIP-PAYMENT-LINK-HERE",
+  institutionalInquiry: "https://YOUR-INSTITUTIONAL-INQUIRY-FORM-HERE",
 };
 
 export const navItems = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
   { label: "Services", path: "/services" },
-  { label: "Impact", path: "/impact" },
+  { label: "BrainTorch Launch", path: "/impact" },
   { label: "Contact", path: "/contact" },
 ];
 
 export const homeStats = [
   {
-    value: "Funding Strategy",
-    label: "SBIR/STTR, ARPA-H, translational research, and milestone-aligned opportunity mapping.",
+    value: "Clinical Research Training",
+    label: "Foundations for learners exploring clinical trial roles, clinical research operations, and non-patient-facing industry paths.",
   },
   {
-    value: "Accounting & Compliance",
-    label: "Grant operations, reporting discipline, and audit-ready process design.",
+    value: "STEM Workforce Development",
+    label: "Programs, curriculum support, and career pathway development for schools, workforce programs, nonprofits, and community partners.",
   },
-  { value: "Commercial Positioning", label: "Executive-ready messaging for reviewers, partners, and investors." },
+  {
+    value: "Scientific Consulting",
+    label: "Scientific writing, clinical research strategy, program management, and translational neuroscience support.",
+  },
 ];
 
 export const clientTypes = [
   {
-    title: "Innovative companies",
-    description: "Biotech, medtech, diagnostics, advanced materials, climate, and other research-intensive ventures.",
-    icon: FlaskConical,
+    title: "Students & graduates",
+    description:
+      "STEM learners, recent graduates, and early-career professionals preparing for clinical research careers, graduate school, fellowships, or industry transitions.",
+    icon: Users,
   },
   {
-    title: "Universities & institutes",
+    title: "Schools & workforce partners",
     description:
-      "Academic teams, translational research centers, and commercialization programs moving science toward real-world adoption.",
+      "Schools, workforce programs, nonprofits, and community organizations building STEM and clinical research career pathways.",
     icon: Landmark,
   },
   {
-    title: "Accelerators & ecosystems",
+    title: "Companies & institutions",
     description:
-      "Innovation programs seeking scalable advisory support for multiple founders, investigators, or portfolio companies.",
+      "Companies, researchers, institutions, and nonprofits needing scientific writing, program support, clinical research strategy, or translational science consulting.",
     icon: Building2,
   },
 ];
 
 export const servicePillars = [
   {
-    title: "Funding Your Science",
+    title: "Scientific & Research Consulting",
     description:
-      "We help teams identify the right non-dilutive opportunities, frame a stronger submission strategy, and build application packages that hold up under serious review.",
-    bullets: ["Opportunity mapping", "Proposal strategy", "Narrative development", "Reviewer-oriented refinement"],
+      "Scientific, clinical research, and translational science support for companies, researchers, institutions, and nonprofits.",
+    bullets: [
+      "Grant writing and proposal development",
+      "Scientific writing and editing",
+      "Manuscripts, reports, and technical content",
+      "Program and project management",
+      "Clinical research strategy and operations",
+      "Translational neuroscience and biomarker consulting",
+    ],
     icon: Beaker,
   },
   {
-    title: "Accounting & Compliance",
+    title: "STEM Education & Workforce Development",
     description:
-      "We design operating rhythms and financial controls that support grant reporting, defensible documentation, and leadership visibility as funding grows.",
-    bullets: ["Grant accounting", "Budget oversight", "Reporting workflows", "Internal control design"],
-    icon: Calculator,
+      "Program and pathway support for schools, workforce programs, nonprofits, and community partners.",
+    bullets: [
+      "STEM program development",
+      "Curriculum design",
+      "Workforce training consulting",
+      "Education partnerships",
+      "Clinical research career pathway development",
+    ],
+    icon: FlaskConical,
   },
   {
-    title: "Commercialization Strategy",
+    title: "Mentorship, Advising & Career Development",
     description:
-      "We connect scientific progress to market-facing communication, partner readiness, and practical milestone planning so leadership teams can move with clarity.",
-    bullets: ["Milestone planning", "Stakeholder messaging", "Commercial roadmap", "Executive presentation support"],
+      "Personalized support for students, graduates, and early-career professionals preparing for clinical research and STEM career transitions.",
+    bullets: [
+      "1:1 mentoring",
+      "Career advising",
+      "Resume and CV preparation",
+      "LinkedIn optimization",
+      "Interview preparation",
+      "Graduate school and fellowship guidance",
+    ],
     icon: Compass,
   },
   {
-    title: "Strategic Finance Support",
+    title: "BrainTorch Launch",
     description:
-      "For growing organizations, we provide the discipline needed to align funding strategy, operating plans, and financial decision-making.",
-    bullets: ["Fractional oversight", "Planning support", "Decision-ready reporting", "Cross-functional coordination"],
+      "A structured clinical research training program for STEM learners, career changers, and emerging professionals.",
+    bullets: [
+      "Clinical trial phases I–IV",
+      "FDA, IRB, and ICH-GCP basics",
+      "CRC, CTA, CRA, MSL, and Clinical Scientist pathways",
+      "Bench-to-bedside translation",
+      "Resume, LinkedIn, and interview preparation",
+    ],
     icon: BadgeDollarSign,
   },
 ];
 
 export const differentiators = [
   {
-    title: "Expertise in science and finance",
-    text: "Clients need more than a writer or bookkeeper. They need a team that can understand technical work and structure the financial backbone around it.",
+    title: "Science education connected to career pathways",
+    text:
+      "BrainTorch Bio helps learners and organizations connect STEM education to clinical research, translational science, and workforce readiness.",
     icon: Sparkles,
   },
   {
-    title: "Executive-level delivery",
-    text: "We work in a way that reflects well on your leadership team: organized, responsive, clear, and built for high-stakes audiences.",
+    title: "Clinical research and translational science perspective",
+    text:
+      "The firm brings clinical research strategy, scientific writing, program support, and translational neuroscience knowledge into practical training and consulting engagements.",
     icon: Briefcase,
   },
   {
-    title: "Strategy through operations",
-    text: "The strongest funding outcomes are sustained by systems. We help build both the pitch and the process behind it.",
+    title: "Mentorship built for emerging professionals",
+    text:
+      "Students, graduates, and early-career professionals can receive targeted support for resumes, LinkedIn, interviews, graduate school, fellowships, and career transitions.",
     icon: ShieldCheck,
   },
 ];
 
 export const leadership = [
   {
-    name: "Eva Garland",
-    role: "Founder & CEO",
-    bio: "A seasoned advisor guiding scientific innovators through funding strategy, financial infrastructure, and commercialization readiness.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1000&q=80",
+    name: "Keisha Smith Wade",
+    role: "Founder · Neuroscientist · Clinical Researcher · Educator",
+    bio:
+      "A PhD-trained neuroscientist, clinical researcher, and educator helping learners and organizations navigate the path from basic science to clinical research and workforce readiness.",
+    image: `${process.env.PUBLIC_URL}/images/braintorch-logo.png`,
   },
   {
-    name: "Aron Josefsberg",
-    role: "Accounting & Compliance Leader",
-    bio: "Focused on grant accounting, internal controls, reporting systems, and operational maturity for high-growth teams.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=80",
+    name: "BrainTorch Launch",
+    role: "Clinical Research Training Program",
+    bio:
+      "A structured training pathway designed for STEM students, graduates, career changers, and early-career professionals transitioning into clinical research and industry roles.",
+    image: `${process.env.PUBLIC_URL}/images/braintorch-logo.png`,
   },
   {
-    name: "Scientific Advisory Team",
-    role: "Proposal & Strategy Specialists",
-    bio: "Cross-functional support spanning proposal development, scientific editing, roadmap planning, and commercialization strategy.",
-    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1000&q=80",
+    name: "Mentorship & Career Development",
+    role: "Career Support Services",
+    bio:
+      "Personalized advising for resumes, CVs, LinkedIn optimization, interview preparation, graduate school planning, fellowships, and STEM career transitions.",
+    image: `${process.env.PUBLIC_URL}/images/braintorch-logo.png`,
   },
 ];
 
 export const aboutSections = [
   {
     title: "What we do",
-    copy: "Aurelia Scientific Advisory supports organizations advancing science and technology. We help founders, investigators, and program leaders secure funding, manage grant-backed growth, and present their work with clarity to reviewers, partners, and stakeholders.",
+    copy:
+      "BrainTorch Bio was created to expand access to clinical research, STEM career pathways, and translational science training.",
   },
   {
-    title: "How we work",
-    copy: "Our engagements are built around strategic clarity, disciplined execution, and a premium client experience. That means strong communication, organized workstreams, and deliverables that feel ready for institutional review.",
+    title: "Who we support",
+    copy:
+      "The firm supports students, graduates, early-career professionals, schools, workforce programs, nonprofits, community partners, companies, researchers, and institutions.",
   },
   {
     title: "Why it matters",
-    copy: "Scientific teams often sit at the intersection of technical complexity, funding pressure, and operational growth. We help reduce friction across those areas so leadership can move faster with more confidence.",
+    copy:
+      "BrainTorch Bio helps learners and organizations bridge the gap between science education and clinical research careers through training, mentorship, program development, and scientific consulting.",
   },
 ];
 
 export const servicesPageSections = [
   {
-    heading: "Funding strategy and proposal development",
-    text: "From early opportunity evaluation through final package review, we help teams pursue the right funding pathways and improve the strength of every submission.",
+    heading: "Scientific & Research Consulting",
+    text: "Support for companies, researchers, institutions, and nonprofits that need scientific communication, program support, or clinical research strategy.",
     checklist: [
-      "Agency and program fit",
-      "Roadmap and calendar planning",
-      "Proposal narrative development",
-      "Final technical and editorial review",
+      "Grant writing and proposal development",
+      "Scientific writing and editing",
+      "Manuscripts, reports, and technical content",
+      "Program and project management",
+      "Clinical research strategy and operations",
+      "Translational neuroscience and biomarker consulting",
     ],
     icon: FileText,
   },
   {
-    heading: "Grant accounting and compliance operations",
-    text: "Winning funding is only the beginning. We help build the financial controls, reporting workflows, and internal discipline required to manage awards responsibly.",
+    heading: "STEM Education & Workforce Development",
+    text: "Consulting and program development for schools, workforce programs, nonprofits, and community partners building STEM and clinical research pathways.",
     checklist: [
-      "Budget controls and expense handling",
-      "Reporting cadence design",
-      "Documentation readiness",
-      "Leadership visibility and oversight",
+      "STEM program development",
+      "Curriculum design",
+      "Workforce training consulting",
+      "Education partnerships",
+      "Clinical research career pathway development",
     ],
     icon: ShieldCheck,
   },
   {
-    heading: "Commercialization and strategic finance",
-    text: "For teams moving from technical success toward market traction, we support milestone packaging, stakeholder messaging, and practical strategic planning.",
+    heading: "Mentorship, Advising & Career Development",
+    text: "One-on-one and packaged support for students, graduates, and early-career professionals preparing for clinical research, graduate school, fellowships, or STEM career transitions.",
     checklist: [
-      "Commercial roadmap support",
-      "Investor and partner materials",
-      "Strategic finance alignment",
-      "Cross-functional planning support",
+      "1:1 mentoring",
+      "Career advising",
+      "Resume and CV preparation",
+      "LinkedIn optimization",
+      "Interview preparation",
+      "Graduate school and fellowship guidance",
     ],
     icon: LineChart,
   },
 ];
 
 export const processSteps = [
-  "Discovery conversation focused on your stage, funding goals, and current constraints.",
-  "Assessment of the strongest opportunities, operational gaps, and communication priorities.",
-  "Scoped workplan with timelines, workstreams, owners, and decision checkpoints.",
-  "Delivery, refinement, and implementation support aligned to the engagement objective.",
+  "Start with an interest form or consultation so BrainTorch Bio can understand the learner, organization, or project need.",
+  "Match the inquiry to the right service path: BrainTorch Launch, mentorship, consulting, or institutional partnership.",
+  "Confirm the program, workshop, mentorship package, or consulting scope with clear next steps and payment or inquiry links.",
+  "Deliver training, advising, program support, or consulting with practical career and scientific outcomes in mind.",
 ];
 
 export const impactHighlights = [
   {
-    title: "Representative client outcomes",
-    text: "Sharper funding strategy, stronger proposal packages, and more disciplined post-award operations.",
+    title: "BrainTorch Launch",
+    text: "Clinical research career training for STEM learners and emerging professionals.",
     icon: Target,
   },
   {
-    title: "Organizations we support",
-    text: "Startups, universities, incubators, accelerators, and research programs pursuing scientific advancement.",
+    title: "Career pathway support",
+    text: "Guidance for CRC, CTA, CRA, MSL, Clinical Scientist, and other clinical research pathway exploration.",
     icon: Users,
   },
   {
-    title: "What clients value most",
-    text: "Responsiveness, technical fluency, financial rigor, and a level of delivery that reflects well on leadership.",
+    title: "Workforce readiness",
+    text: "Training and support that connects science education, clinical research foundations, and professional preparation.",
     icon: CheckCircle2,
   },
 ];
 
 export const caseStudies = [
   {
-    category: "Diagnostics",
-    title: "Positioning an early-stage scientific company for stronger non-dilutive funding pursuit",
-    description:
-      "A research-driven company needed help evaluating opportunity fit, tightening its scientific story, and creating a more credible funding roadmap.",
-    result:
-      "The engagement produced a clearer opportunity sequence, more persuasive technical communication, and a stronger executive narrative.",
+    category: "Starter Workshop",
+    title: "$97",
+    description: "Introductory 60–90 minute live session for beginners exploring clinical research careers.",
+    result: "Payment placeholder: YOUR-STARTER-WORKSHOP-PAYMENT-LINK-HERE",
   },
   {
-    category: "Grant Operations",
-    title: "Improving post-award discipline for a growth-stage innovation team",
-    description:
-      "Leadership needed better visibility across budgets, reporting responsibilities, and internal controls as funding activity expanded.",
-    result:
-      "We structured cleaner workflows, stronger documentation habits, and more consistent oversight across grant-backed operations.",
+    category: "Core Training Program",
+    title: "$597",
+    description: "Multi-session clinical research foundations program with career pathway guidance.",
+    result: "Payment placeholder: YOUR-CORE-PROGRAM-PAYMENT-LINK-HERE",
   },
   {
-    category: "University Commercialization",
-    title: "Supporting a translational research initiative with portfolio-style advisory guidance",
-    description:
-      "An innovation program needed a repeatable framework for helping multiple scientific teams prepare for funding and external review.",
-    result:
-      "We provided a more consistent intake process, stronger prioritization, and clearer support pathways across participating teams.",
+    category: "Premium Mentorship Track",
+    title: "$1,500",
+    description: "Training plus 1:1 mentoring, resume support, LinkedIn optimization, and interview preparation.",
+    result: "Payment placeholder: YOUR-MENTORSHIP-PAYMENT-LINK-HERE",
   },
 ];
 
 export const resources = [
   {
-    tag: "Article",
-    title: "How scientific teams can decide whether a funding opportunity is actually worth pursuing",
-    summary: "A strategic screening framework for time, fit, readiness, and potential return on effort.",
+    tag: "Institutional Programs",
+    title: "Starting at $3,500",
+    summary: "Custom training for schools, nonprofits, workforce boards, and organizations. Inquiry/deposit placeholder: YOUR-INSTITUTIONAL-INQUIRY-FORM-HERE.",
   },
   {
-    tag: "Guide",
-    title: "The grant accounting controls that matter once funding is secured",
-    summary: "A practical look at reporting discipline, documentation, internal controls, and leadership oversight.",
+    tag: "Mentorship Option",
+    title: "Resume/CV Review · $125",
+    summary: "Focused resume or CV support for students, graduates, and early-career professionals.",
   },
   {
-    tag: "Webinar",
-    title: "Presenting complex innovation clearly to reviewers, partners, and investors",
-    summary: "Messaging principles that help technical teams communicate with more clarity and confidence.",
+    tag: "Mentorship Option",
+    title: "Career Strategy Session · $150",
+    summary: "Personalized career strategy support for clinical research, graduate school, fellowship, or STEM career transition planning.",
+  },
+  {
+    tag: "Mentorship Package",
+    title: "3-Session Mentorship Package · $399",
+    summary: "Multi-session advising for career development, applications, and interview preparation.",
+  },
+  {
+    tag: "Mentorship Package",
+    title: "Premium Career Package · $750",
+    summary: "Higher-touch career support including resume/CV guidance, LinkedIn optimization, and interview preparation.",
+  },
+  {
+    tag: "QR Setup",
+    title: "Application QR Code Placeholder",
+    summary: "Create the application form, generate a QR code in Canva, and replace the website placeholder with the QR image when ready.",
   },
 ];
 
 export const contactReasons = [
-  "Discuss a funding strategy engagement",
-  "Explore accounting and compliance support",
-  "Request proposal development assistance",
-  "Ask about commercialization or strategic finance needs",
+  "Starter Workshop",
+  "Core Training Program",
+  "Premium Mentorship Track",
+  "Institutional Partnership",
+  "Scientific & Research Consulting",
+  "STEM Education & Workforce Development",
+  "Mentorship, Advising & Career Development",
 ];
 
 export const faqItems = [
   {
-    question: "What kinds of organizations are the best fit?",
+    question: "Who is BrainTorch Launch designed for?",
     answer:
-      "The site is positioned for innovative companies, university and translational teams, incubators, accelerators, and other research-driven organizations.",
+      "BrainTorch Launch is designed for STEM students, graduates, career changers, and early-career professionals transitioning into clinical research, translational science, and non-patient-facing industry roles.",
   },
   {
-    question: "Can this be customized for a real firm?",
+    question: "What does BrainTorch Launch cover?",
     answer:
-      "Yes. Brand colors, team bios, case studies, contact information, booking links, and service language are easy to swap into the current structure.",
+      "The program covers clinical trial phases I–IV, FDA, IRB, and ICH-GCP basics, CRC, CTA, CRA, MSL, and Clinical Scientist pathways, bench-to-bedside translation, and resume, LinkedIn, and interview preparation.",
   },
   {
-    question: "Is this polished enough to demo to a potential client?",
+    question: "What form fields should the application include?",
     answer:
-      "Yes. The site uses client-facing language, a professional visual system, and service framing that matches the scientific advisory category.",
+      "Recommended fields include full name, email, phone, current role or student status, highest degree completed, STEM or clinical research background, selected program option, goals for joining, career transition support needs, preferred start date, and referral source.",
   },
 ];
 
 export const footerNote =
-  "Aurelia Scientific Advisory helps scientific innovators secure funding, strengthen operations, and grow with confidence.";
+  "BrainTorch Bio provides clinical research training, STEM workforce development, mentorship, and scientific consulting.";
 
 export const homeImages = {
   hero: `${process.env.PUBLIC_URL}/images/home-hero.jpg`,
@@ -295,7 +360,7 @@ export const homeImages = {
 };
 
 export const impactBanner = {
-  title: "Helping breakthrough ideas move from promising science to fundable, well-managed growth.",
-  text: "A strong scientific advisory brand needs more than attractive visuals. It needs credibility, category fit, and language that sounds like it belongs in the room with serious decision-makers.",
+  title: "A structured clinical research training pathway from STEM learning to career readiness.",
+  text: "BrainTorch Launch helps STEM students, graduates, career changers, and early-career professionals build clinical research foundations and prepare for non-patient-facing roles in clinical research and translational science.",
   icon: ArrowRight,
 };

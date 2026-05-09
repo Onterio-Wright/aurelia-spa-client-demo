@@ -10,9 +10,12 @@ export default function Navbar({ items, ctaLabel }) {
   return (
     <header className="navbar">
       <div className="shell navbar__row">
-        <NavLink to="/" className="brand" onClick={() => setOpen(false)}>
-          <span className="brand__eyebrow">{company.eyebrow}</span>
-          <span className="brand__name">{company.name}</span>
+        <NavLink to="/" className="brand brand--with-logo" onClick={() => setOpen(false)}>
+          <img src={`${process.env.PUBLIC_URL}/images/braintorch-logo.png`} alt="BrainTorch Bio logo" className="brand__logo" />
+          <span className="brand__text">
+            <span className="brand__eyebrow">{company.eyebrow}</span>
+            <span className="brand__name">{company.name}</span>
+          </span>
         </NavLink>
 
         <nav className="nav-links nav-links--desktop">

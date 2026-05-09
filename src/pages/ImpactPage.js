@@ -11,9 +11,9 @@ export default function ImpactPage() {
   return (
     <>
       <PageHero
-        eyebrow="Our Impact"
-        title="Showing clients what your work actually helps make possible"
-        description="A stronger impact page combines representative outcomes, category-fit case studies, and thought leadership that reinforces expertise."
+        eyebrow="Flagship Program"
+        title="BrainTorch Launch"
+        description="A structured clinical research training program designed to help STEM students, graduates, career changers, and early-career professionals transition into clinical research, translational science, and non-patient-facing industry roles."
         compact
       />
 
@@ -28,7 +28,7 @@ export default function ImpactPage() {
       <section className="section section--contrast">
         <div className="shell banner-callout">
           <div>
-            <p className="eyebrow">Impact Narrative</p>
+            <p className="eyebrow">What You’ll Learn</p>
             <h2>{impactBanner.title}</h2>
             <p>{impactBanner.text}</p>
           </div>
@@ -40,22 +40,22 @@ export default function ImpactPage() {
 
       <section className="section shell">
         <SectionIntro
-          eyebrow="Client Highlights"
-          title="Representative case studies"
-          text="These are framed to feel useful and credible in a demo without fabricating named client endorsements."
+          eyebrow="Program Pricing"
+          title="BrainTorch Launch program options"
+          text="The uploaded starter listed these program tiers for the BrainTorch Bio site. Replace the placeholder payment links when the live payment pages are ready."
         />
         <div className="card-grid card-grid--three top-gap-lg">
           {caseStudies.map((item) => (
-            <CaseStudyCard key={item.title} item={item} />
+            <CaseStudyCard key={item.category} item={item} />
           ))}
         </div>
       </section>
 
       <section className="section shell section--tight-top">
         <SectionIntro
-          eyebrow="Resources"
-          title="Thought leadership that supports the brand"
-          text="The live reference site prominently features trending content, newsletters, and practical guidance. This version mirrors that expectation with a cleaner editorial layout."
+          eyebrow="Mentorship & Application Setup"
+          title="Career support, institutional programs, and QR placeholder details"
+          text="These cards capture the mentorship pricing, institutional program starting point, and QR setup notes from the BrainTorch Bio starter document."
         />
         <div className="card-grid card-grid--three top-gap-lg">
           {resources.map((item) => (

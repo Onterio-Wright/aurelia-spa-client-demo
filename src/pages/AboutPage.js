@@ -8,9 +8,9 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        eyebrow="About Us"
-        title="A science-first advisory firm built around funding strategy, financial discipline, and practical growth support"
-        description="Our work is designed to help technical organizations communicate more clearly, operate more confidently, and pursue funding with better alignment between vision and execution."
+        eyebrow="About BrainTorch Bio"
+        title="Expanding access to clinical research, STEM career pathways, and translational science training"
+        description="BrainTorch Bio was founded to help learners and organizations navigate the path from basic science to clinical research and workforce readiness."
         image={homeImages.about}
         compact
       />
@@ -18,8 +18,8 @@ export default function AboutPage() {
       <section className="section shell">
         <SectionIntro
           eyebrow="Our Approach"
-          title="What makes the firm credible"
-          text="Instead of generic marketing language, the site uses category-specific positioning grounded in how scientific funding and grant-backed organizations actually work."
+          title="Science education, career development, and clinical research readiness in one platform"
+          text="BrainTorch Bio combines training, mentorship, program development, and scientific consulting so learners and organizations can move with clarity."
         />
         <div className="card-grid card-grid--three top-gap-lg">
           {differentiators.map((item) => (
@@ -41,9 +41,9 @@ export default function AboutPage() {
 
       <section className="section shell">
         <SectionIntro
-          eyebrow="Our Professionals"
-          title="Leadership and advisory capability"
-          text="This page mirrors the category expectation that visitors can quickly understand who is behind the work and what perspective they bring."
+          eyebrow="Founder & Programs"
+          title="Led by Keisha Smith Wade"
+          text="Keisha Smith Wade is a PhD-trained neuroscientist, clinical researcher, and educator. BrainTorch Bio helps learners and organizations connect science training to clinical research and workforce opportunities."
         />
         <div className="card-grid card-grid--three top-gap-lg">
           {leadership.map((member) => (

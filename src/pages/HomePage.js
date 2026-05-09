@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <>
       <PageHero
-        eyebrow="Scientific Funding & Grant Management"
+        eyebrow="Clinical Research Training | STEM Workforce Development | Scientific Consulting"
         title={company.heroTitle}
         description={company.heroDescription}
         image={homeImages.hero}
@@ -26,8 +26,8 @@ export default function HomePage() {
       <section className="section shell">
         <SectionIntro
           eyebrow="Who We Serve"
-          title="Working with innovative companies, universities, incubators, and government-aligned programs"
-          text="The site is positioned to speak credibly to the scientific community while still feeling polished enough for executive, institutional, and investor-facing audiences."
+          title="Helping learners, schools, workforce partners, and organizations move science forward"
+          text="BrainTorch Bio supports individual career development, institutional STEM pathway building, and scientific or clinical research consulting needs."
         />
         <div className="card-grid card-grid--three top-gap-lg">
           {clientTypes.map(item => (
@@ -41,13 +41,13 @@ export default function HomePage() {
           <div>
             <SectionIntro
               eyebrow="Core Services"
-              title="Advisory services that match the way scientific organizations actually grow"
-              text="The homepage introduces the full service platform with language that feels specific to the category: funding, accounting and compliance, commercialization, and strategic finance."
+              title="Training, mentorship, and consulting built around clinical research readiness"
+              text="The service platform includes scientific and research consulting, STEM education and workforce development, mentorship and career advising, and the BrainTorch Launch clinical research training program."
             />
             <div className="button-row top-gap-md">
               <Button to="/services">View all services</Button>
               <Button to="/impact" variant="secondary">
-                See impact <ArrowRight size={16} />
+                BrainTorch Launch <ArrowRight size={16} />
               </Button>
             </div>
           </div>
@@ -68,18 +68,18 @@ export default function HomePage() {
       <section className="section shell">
         <div className="feature-banner">
           <div>
-            <p className="eyebrow">Why this design works</p>
-            <h2>It feels like a real advisory firm, not a generic template.</h2>
+            <p className="eyebrow">BrainTorch Launch</p>
+            <h2>Clinical research career training for STEM learners and emerging professionals.</h2>
             <p>
-              The layout uses cleaner hierarchy, more credible category wording, editorial spacing, and real service
-              framing modeled after how science advisory firms present themselves online.
+              BrainTorch Launch is a structured program designed to help STEM students, graduates, career changers,
+              and early-career professionals transition into clinical research, translational science, and non-patient-facing industry roles.
             </p>
           </div>
 
           {!bannerImageFailed ? (
             <img
               src={homeImages.about}
-              alt="Advisory team in discussion"
+              alt="BrainTorch Bio logo"
               className="feature-banner__image"
               onError={() => setBannerImageFailed(true)}
             />

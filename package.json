@@ -1,6 +1,6 @@
 {
-  "name": "aurelia-scientific-site",
-  "version": "2.0.0",
+  "name": "braintorch-bio-client-demo",
+  "version": "2.1.0",
   "private": true,
   "dependencies": {
     "lucide-react": "^0.462.0",

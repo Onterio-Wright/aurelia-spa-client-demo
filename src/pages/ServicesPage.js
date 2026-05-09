@@ -9,8 +9,8 @@ export default function ServicesPage() {
     <>
       <PageHero
         eyebrow="Services"
-        title="Funding your science, managing your grants, and preparing your organization to scale responsibly"
-        description="The service page is built around the same core pillars seen across the category: proposal support, accounting and compliance, and commercialization-focused strategy."
+        title="Clinical research training, STEM workforce development, mentorship, and scientific consulting"
+        description="BrainTorch Bio serves companies, researchers, institutions, nonprofits, schools, workforce programs, community partners, students, graduates, and early-career professionals."
         image={homeImages.services}
         compact
       />
@@ -18,8 +18,8 @@ export default function ServicesPage() {
       <section className="section shell">
         <SectionIntro
           eyebrow="Service Lines"
-          title="A more complete and believable service architecture"
-          text="Instead of vague consulting language, the page is organized around the exact types of work scientific teams expect to find when they visit a firm in this category."
+          title="What BrainTorch Bio offers"
+          text="The service lines are organized around scientific and research consulting, STEM education and workforce development, and mentorship, advising, and career development."
         />
         <div className="stack-grid top-gap-lg">
           {servicesPageSections.map((item) => (
@@ -32,8 +32,8 @@ export default function ServicesPage() {
         <div className="shell split-layout">
           <SectionIntro
             eyebrow="How Engagements Work"
-            title="A structured process from discovery to delivery"
-            text="This gives a potential client confidence that the engagement will be well-run, scoped clearly, and easy for leadership to navigate."
+            title="A clear path from interest to training, mentorship, partnership, or consulting support"
+            text="The process keeps the current site structure while replacing the content with BrainTorch Bio program and service information."
           />
           <ProcessList steps={processSteps} />
         </div>

@@ -7,9 +7,9 @@ export default function ContactPage() {
   return (
     <>
       <PageHero
-        eyebrow="Contact Us"
-        title="Let’s discuss your funding, accounting, or commercialization needs"
-        description="The contact experience is designed to feel simple, premium, and client-ready, with the right language for a discovery call rather than a generic template form."
+        eyebrow="Contact BrainTorch Bio"
+        title="Apply, book a consultation, or start a partnership conversation"
+        description="Interested in BrainTorch Launch, mentorship, consulting, or partnership opportunities? Connect with BrainTorch Bio to take the next step."
         compact
       />
 
@@ -17,9 +17,9 @@ export default function ContactPage() {
         <div className="contact-grid">
           <div className="contact-card">
             <p className="eyebrow">Get in touch</p>
-            <h2>Reach the firm directly.</h2>
+            <h2>Let’s connect.</h2>
             <p>
-              Whether your team is evaluating a funding strategy, strengthening grant operations, or preparing for a more sophisticated growth plan, we would be glad to connect.
+              Reach out about BrainTorch Launch, mentorship and career development, scientific and research consulting, STEM workforce development, or institutional partnership opportunities.
             </p>
             <div className="contact-details">
               <div>
@@ -31,7 +31,7 @@ export default function ContactPage() {
                 <span>{company.email}</span>
               </div>
               <div>
-                <strong>Office</strong>
+                <strong>Service Area</strong>
                 <span>{company.location}</span>
               </div>
             </div>
@@ -45,9 +45,9 @@ export default function ContactPage() {
         <div className="shell faq-grid">
           <div>
             <p className="eyebrow">Frequently Asked Questions</p>
-            <h2>Answers that help the client understand what they are seeing.</h2>
+            <h2>BrainTorch Launch and application details.</h2>
             <p className="lead-small">
-              The FAQ reinforces category fit and makes the demo easier to present in a live conversation.
+              The application form should capture the learner’s contact information, background, program interest, goals, preferred start date, and how they heard about BrainTorch Bio.
             </p>
           </div>
           <div>
