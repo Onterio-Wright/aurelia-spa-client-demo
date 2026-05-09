@@ -143,7 +143,7 @@ export const founderProfile = {
   role: "Founder, BrainTorch™ Bio",
   image: `${process.env.PUBLIC_URL}/images/about-dr-keisha-smith-wade.png`,
   bio: [
-    "Dr. Keisha Smith Wade is a translational and clinical research neuroscientist professional with over a decade of experience spanning basic science, translational medicine, and clinical research operations in research environments.",
+    "Dr. Keisha Smith Wade, PhD is a translational and clinical research neuroscientist professional with over a decade of experience spanning basic science, translational medicine, and clinical research operations in research environments.",
     "Her work has focused on neuropsychiatry, addiction neuroscience, mood disorders, women’s brain health, biomarker research, and clinical trial operations, with experience supporting multidisciplinary research initiatives at institutions including Yale School of Medicine.",
     "Throughout her career, Dr. Smith Wade has contributed to clinical and translational research programs involving neuroimaging, behavioral health, biomarker analysis, and FDA-regulated clinical research. Her expertise includes clinical trial coordination, regulatory compliance, participant engagement, scientific program management, translational science education, and cross-functional research collaboration.",
     "Dr. Smith Wade founded BrainTorch™ Bio to help bridge the gap between STEM education, translational science, and workforce readiness within the growing healthcare and clinical research industries. The initiative was created to provide accessible, industry-aligned training and career pathway exposure for individuals pursuing opportunities in clinical research, healthcare innovation, and life sciences.",
