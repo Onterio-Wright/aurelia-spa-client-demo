@@ -756,3 +756,248 @@ textarea {
     grid-template-columns: 1fr;
   }
 }
+
+/* Mobile polish: keep the desktop design intact while fixing tight phone layouts. */
+@media (max-width: 640px) {
+  .shell {
+    width: min(1180px, calc(100% - 1.25rem));
+  }
+
+  .navbar__row {
+    min-height: 70px;
+    gap: 0.65rem;
+  }
+
+  .brand--with-logo {
+    gap: 0.55rem;
+    flex: 1 1 auto;
+    max-width: calc(100% - 52px);
+  }
+
+  .brand__logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 11px;
+    padding: 0.18rem;
+  }
+
+  .brand__text {
+    overflow: hidden;
+  }
+
+  .brand__eyebrow {
+    display: none;
+  }
+
+  .brand__name {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.05rem;
+  }
+
+  .mobile-toggle {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+  }
+
+  .mobile-panel__inner {
+    gap: 0.65rem;
+    padding: 0.8rem 0 1rem;
+  }
+
+  .mobile-link {
+    padding: 0.85rem 0.9rem;
+  }
+
+  .page-hero {
+    padding: 2.35rem 0 2rem;
+  }
+
+  .page-hero--compact {
+    padding-top: 2rem;
+  }
+
+  .page-hero__grid {
+    gap: 1.35rem;
+  }
+
+  .page-hero__content h1 {
+    font-size: clamp(2.05rem, 11vw, 3rem);
+    line-height: 1.04;
+    letter-spacing: -0.035em;
+  }
+
+  .lead,
+  .section-intro p,
+  .info-card p,
+  .case-card p,
+  .resource-card p,
+  .team-card p,
+  .narrative-block p,
+  .contact-card p,
+  .process-step p,
+  .faq-item__answer,
+  .lead-small {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .eyebrow,
+  .resource-card__tag,
+  .case-card__category {
+    letter-spacing: 0.16em;
+    font-size: 0.68rem;
+  }
+
+  .button-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .button {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    text-align: center;
+  }
+
+  .page-hero__image-wrap {
+    width: min(100%, 360px);
+    margin: 0 auto;
+  }
+
+  .page-hero__image-wrap::before {
+    inset: auto -0.45rem -0.45rem auto;
+    border-radius: 22px;
+  }
+
+  .page-hero__image {
+    min-height: 0;
+    height: min(78vw, 360px);
+    padding: 0.85rem;
+    border-radius: 24px;
+  }
+
+  .section {
+    padding: 3.4rem 0;
+  }
+
+  .section--tight-top {
+    padding-top: 0.5rem;
+  }
+
+  .section-intro h2,
+  .feature-banner h2,
+  .banner-callout h2,
+  .contact-card h2,
+  .faq-grid h2 {
+    font-size: clamp(1.75rem, 8vw, 2.35rem);
+    line-height: 1.1;
+  }
+
+  .info-card,
+  .case-card,
+  .resource-card,
+  .contact-card,
+  .narrative-block,
+  .process-step,
+  .banner-callout,
+  .feature-banner {
+    border-radius: 20px;
+    padding: 1.15rem;
+  }
+
+  .info-card h3,
+  .case-card h3,
+  .resource-card h3,
+  .team-card h3,
+  .contact-card h2,
+  .narrative-block h3 {
+    font-size: 1.3rem;
+  }
+
+  .banner-callout {
+    grid-template-columns: 1fr;
+  }
+
+  .banner-callout__icon,
+  .process-step__number {
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+  }
+
+  .process-step {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-banner__image,
+  .team-card__image,
+  .feature-banner__image--placeholder,
+  .team-card__image--placeholder {
+    min-height: 0;
+    height: min(70vw, 300px);
+    padding: 0.8rem;
+    border-radius: 18px;
+  }
+
+  .stat-pill {
+    padding: 1rem;
+    border-radius: 18px;
+  }
+
+  .contact-card {
+    padding: 1.2rem;
+  }
+
+  .contact-form {
+    gap: 0.85rem;
+  }
+
+  input,
+  textarea,
+  select {
+    padding: 0.9rem;
+    border-radius: 12px;
+  }
+
+  .footer {
+    padding-top: 2.3rem;
+  }
+
+  .footer__grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .shell {
+    width: min(1180px, calc(100% - 1rem));
+  }
+
+  .brand__logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .brand__name {
+    font-size: 0.98rem;
+  }
+
+  .mobile-toggle {
+    width: 40px;
+    height: 40px;
+    flex-basis: 40px;
+  }
+
+  .page-hero__content h1 {
+    font-size: clamp(1.9rem, 11vw, 2.45rem);
+  }
+
+  .page-hero__image {
+    height: min(76vw, 320px);
+  }
+}
